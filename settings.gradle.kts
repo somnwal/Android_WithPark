@@ -23,3 +23,5 @@ rootProject.name = "Withpark"
 
 include(":app")
 include(":presentation")
+include(":domain")
+include(":data")

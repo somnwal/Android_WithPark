@@ -47,8 +47,11 @@ android {
 }
 
 dependencies {
+    implementation(projects.domain)
+    implementation(projects.data)
     implementation(projects.presentation)
 
     implementation(libs.hilt.android)
+    implementation(libs.androidx.hilt.navigation.compose)
     kapt(libs.hilt.compiler)
 }
